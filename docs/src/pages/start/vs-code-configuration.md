@@ -25,20 +25,13 @@ To edit the settings, use the command `Open Settings JSON` in the Command Palett
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
 
-    "eslint.autoFixOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     "eslint.validate": [
-        {
-            "language": "vue",
-            "autoFix": true
-        },
-        {
-            "language": "html",
-            "autoFix": true
-        },
-        {
-            "language": "javascript",
-            "autoFix": true
-        }
+      "vue",
+      "html",
+      "javascript"
     ],
 
     "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
